@@ -1,0 +1,10 @@
+{
+  "name": "twitch-client",
+  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "prettier": "3.0.3",
+    "ws": "8.14.2"
+  }
+}
