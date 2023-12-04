@@ -1,7 +1,7 @@
 // https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=rvf4cmjfunyns7rhquhkt76773yseu&redirect_uri=http://localhost:3000&scope=chat%3Aedit%20chat%3Aread&state=c3ab8aa609ea11e793ae92361f002671
 
-const WebSocket = require("ws");
-require("dotenv").config();
+import { WebSocket } from "ws";
+import "dotenv/config";
 
 const TWITCH_WEBSOCKET_URL = "wss://irc-ws.chat.twitch.tv:443";
 const twitchUsername = process.env.TWITCH_USER;
